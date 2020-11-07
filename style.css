@@ -5,33 +5,39 @@ section {
   width: 1000px;
   background-color: white;
   margin: auto;
+  padding-bottom: 10px;
 }
 
 header {
   background-color: blue;
   display: flex;
+  border: blue outset;
 }
 
 main {
   display: flex;
+  border: outset;
 }
 
 nav {
    width: 180px;
    display: inline-block;
    margin: 0 auto;
+   border: black inset;
  }
 
 article {
   width: 760px;
   display: inline-block;
   margin: 0 auto;
+  border: black inset;
 }
 
 footer {
   background-color: grey;
-
-  font-style: normal;
+  margin: 5px 5px 5px 5px;
+  margin-bottom: -5px;
+  border: black outset;
 }
 
 a[href^="mailto"]::before {
